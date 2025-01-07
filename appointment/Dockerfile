@@ -1,0 +1,15 @@
+FROM
+
+USER 
+
+WORKDIR  
+
+ENV 
+
+COPY 
+
+RUN 
+
+ENTRYPOINT [ "" ]
+
+
