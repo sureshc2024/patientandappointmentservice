@@ -1,6 +1,6 @@
-FROM
+FROM 
 
-USER 
+USER  
 
 WORKDIR  
 
