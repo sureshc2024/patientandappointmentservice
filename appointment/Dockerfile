@@ -1,15 +1,17 @@
-FROM 
+FROM node:20-alpine
 
-USER  
+USER root
 
-WORKDIR  
+WORKDIR /usr/src/app 
 
-ENV 
+COPY package.json .
 
-COPY 
+RUN npm install
 
-RUN 
+COPY . . 
 
-ENTRYPOINT [ "" ]
+EXPOSE 3000
+
+CMD [ "node","appointment.js" ]
 
 
