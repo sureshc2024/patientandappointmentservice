@@ -1,8 +1,8 @@
-FROM node:20-alpine
+FROM node:18
 
 USER root
 
-WORKDIR /usr/src/app 
+WORKDIR /app 
 
 COPY package*.json ./
 
@@ -10,7 +10,7 @@ RUN npm install
 
 COPY . . 
 
-EXPOSE 3001
+EXPOSE 3000
 
 CMD [ "node","appointment.js" ]
 
