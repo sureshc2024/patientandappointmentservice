@@ -57,5 +57,5 @@ const express = require('express');
     });
     
     app.listen(port, '0.0.0.0', () => {
-      console.log(patients service listening at http://0.0.0.0:${port});
+      console.log(Patient service listening at http://0.0.0.0:${port});
     });
