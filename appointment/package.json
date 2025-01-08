@@ -1,0 +1,16 @@
+{
+    "name": "appointment-service",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node appointment.js",
+      "dev": "nodemon appointment.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+}
